@@ -1,0 +1,67 @@
+.editor {
+  height: 55vh;
+  overflow: auto;
+
+  .configurator {
+    .field,
+    .thirdField,
+    .halfField {
+      padding: 10px;
+      display: inline-flex;
+
+      * {
+        flex: 1;
+        align-self: center;
+      }
+
+      label {
+        font-size: small;
+        font-weight: bold;
+        margin: 0 0.5em 0 0px;
+        flex: none;
+        flex-basis: 5%;
+        text-align: start;
+      }
+
+      input {
+        width: 100%;
+        border-radius: 5px;
+        height: 2em;
+        font-weight: bold;
+        border: 1px solid #6a5b5b;
+        padding: 1em 0.5em 1em;
+
+        &.error {
+          border: 2px solid red;
+        }
+      }
+    }
+    .row {
+      display: flex;
+    }
+    .halfField {
+      width: 50%;
+    }
+    .thirdField {
+      width: 30%;
+    }
+    .field {
+      width: 100%;
+    }
+    .frame {
+      border: 1px solid #000;
+      border-radius: 2px;
+      padding: 0.5em 1em;
+      margin-top: 0.5em;
+      h4 {
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+.empty {
+  background: #fff;
+  color: #979696;
+  padding: 2em;
+}

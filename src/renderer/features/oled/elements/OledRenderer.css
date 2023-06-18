@@ -1,0 +1,14 @@
+.oled {
+  display: inline;
+  margin: 0 auto;
+}
+
+.oled .konvajs-content {
+  margin: 0 auto;
+}
+
+.oled canvas {
+  background: #000!important;
+  image-rendering: pixelated;
+  box-shadow: 0 0 4px 4px #4c1c1c;
+}

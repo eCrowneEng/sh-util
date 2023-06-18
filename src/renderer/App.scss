@@ -1,0 +1,43 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: 'Apple II';
+  src: url('/assets/fonts/Apple2.ttf');
+}
+
+@font-face {
+  font-family: 'Open 24 ST';
+  src: url('/assets/fonts/Open24DisplaySt.ttf');
+}
+
+
+h1 {
+  font: 'Apple II';
+}
+
+body {
+  /*position: relative;*/
+  color: #ffffff;
+  height: 100vh;
+  background: #131313;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  height: fit-content;
+  width: fit-content;
+  color: red;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.editor {
+  position: relative;
+  z-index: 10;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  align-self: self-end;
+}
