@@ -5,6 +5,8 @@ A very crude layout editor for OLED screens used with SimHub.
 
 NOTE: It currently only supports opening it's own created ini files.
 
+Head over to the discord for support or discussion: https://discord.gg/EBbzWWyGgr 
+
 ## How to:
 If you want to try it out, feel free to grab the latest compiled installer from the releases section.
 
