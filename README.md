@@ -3,7 +3,7 @@ A very crude layout editor for OLED screens used with SimHub.
 
 <img src="/screenshot.jpg" alt="Screenshot of editor" />
 
-NOTE: It currently only supports opening it's own created ini files.
+NOTE: It currently only supports opening its own created ini files.
 
 Head over to the discord for support or discussion: https://discord.gg/EBbzWWyGgr 
 
